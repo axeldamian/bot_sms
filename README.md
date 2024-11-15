@@ -10,7 +10,10 @@ Registrarse en twilio y te da 15 dolares gratis, despues te cobran.
 
 
 Una vez levantada esta api en spring java:
-realizar un Get a /send
+
+
+realizar un Get a /send, envía un sms a un número indicado desde el número virtual que te da rwilio.
+
 
 la base url es localhost:8080
 
