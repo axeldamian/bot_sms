@@ -5,6 +5,7 @@ import org.apache.logging.log4j.Logger;
 import org.springframework.stereotype.Service;
 
 import com.leibnix.BinaryTree;
+
 @Service
 public class BinaryTreeService {
 
@@ -14,6 +15,7 @@ public class BinaryTreeService {
         BinaryTree<String> b = new BinaryTree<String>();
         b.add("a");
         b.add("b");
+
         log.info("two items");
 
         return b.getHeight();
