@@ -22,7 +22,7 @@ public class BinaryTreeController {
     public ResponseEntity<Integer> getHeight() {
         log.info("call to endpoint /binarytree");
         Integer h = service.getBinaryTreeHeight();
-        return new ResponseEntity<>( h , HttpStatus.OK);
+        return new ResponseEntity<Integer>( h , HttpStatus.OK);
     }
     
 }
